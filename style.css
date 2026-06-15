@@ -43,13 +43,6 @@ header {
     transform: scale(1.03) translateY(-1px); /* Sophisticated, highly subtle micro-lift on hover */
 }
 
-.logo {
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--accent-gold);
-    font-size: 1.2rem;
-}
-
 nav a {
     color: var(--text-muted);
     text-decoration: none;

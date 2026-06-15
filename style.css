@@ -31,16 +31,23 @@ header {
     margin: 0 auto;
 }
 
+/* Perfect alignment alignment wrapper for the image link */
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .site-logo {
-    height: 48px; /* Slightly increased height to make your detailed frame highly legible */
+    height: 48px; /* Balanced height for deep framing visibility */
     width: auto;
     object-fit: contain;
-    image-rendering: -webkit-optimize-contrast; /* Ensures maximum sharpness on high-res displays */
+    image-rendering: -webkit-optimize-contrast; /* Crystal-clear execution on high-res Retina displays */
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .site-logo:hover {
-    transform: scale(1.03) translateY(-1px); /* Sophisticated, highly subtle micro-lift on hover */
+    transform: scale(1.03) translateY(-1px); /* Subtle micro-elevation on hover */
 }
 
 nav a {
@@ -61,7 +68,7 @@ nav a:hover {
     border: 1px solid var(--accent-gold);
     padding: 0.6rem 1.2rem;
     color: var(--accent-gold);
-    border-radius: 0px; /* Sharp corners invoke modern architecture and luxury tailoring */
+    border-radius: 0px; /* Clean angles mirror bespoke premium tailoring */
     text-decoration: none;
     font-size: 0.8rem;
     transition: all 0.3s ease;
@@ -93,6 +100,17 @@ nav a:hover {
     letter-spacing: 2px;
     margin-bottom: 2.5rem;
     font-weight: 500;
+}
+
+.hero-statement {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    max-width: 750px;
+    border-left: 2px solid var(--accent-gold);
+    padding-left: 1.5rem;
 }
 
 .bio {
@@ -151,17 +169,6 @@ footer p {
     font-size: 0.75rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-}
-
-.hero-statement {
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.4;
-    color: var(--text-light);
-    margin-bottom: 2rem;
-    max-width: 750px;
-    border-left: 2px solid var(--accent-gold);
-    padding-left: 1.5rem;
 }
 
 @media (max-width: 768px) {

@@ -1,2 +1,2 @@
-# jordanleighbaker.github.io
+# jordanlbaker.github.io
 My biography

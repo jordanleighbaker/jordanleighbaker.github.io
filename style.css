@@ -31,6 +31,18 @@ header {
     margin: 0 auto;
 }
 
+.site-logo {
+    height: 48px; /* Slightly increased height to make your detailed frame highly legible */
+    width: auto;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast; /* Ensures maximum sharpness on high-res displays */
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.site-logo:hover {
+    transform: scale(1.03) translateY(-1px); /* Sophisticated, highly subtle micro-lift on hover */
+}
+
 .logo {
     font-weight: 700;
     letter-spacing: 2px;
